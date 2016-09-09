@@ -8,9 +8,9 @@ db = Redis.connect('127.0.0.1', 6379)
 serpent = require('serpent')
 
 local function check_config()
-	if not config.bot_api_key or config.bot_api_key == '' then
+	if not config.bot_api_key or config.bot_api_key == '280573562:AAEz1HofpZI9lCM6a8AVzdZDSlYCd00zsAg' then
 		return 'Bot token missing. You must set it!'
-	elseif not next(config.superadmins) then
+	elseif not next(config.207647271) then
 		return 'You have to set the id of the owner'
 	elseif not config.bot_settings.cache_time.adminlist or config.bot_settings.cache_time.adminlist == '' then
 		return 'Please set up a cache time for the adminlist'
