@@ -3,7 +3,7 @@ return {
 	version = '4.1.1',
 	cmd = '^[/!#]',
 	db = 2, --default redis db: 0
-	superadmins = {23646077, 1},
+	superadmins = {207647271, 1},
 	log_chat = -1001057801239,
 	log_admin = 23646077,
 	bot_settings = {
